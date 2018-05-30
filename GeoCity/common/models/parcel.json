@@ -1,0 +1,44 @@
+{
+  "name": "Parcel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "owner": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "object",
+      "required": true
+    },
+    "SN": {
+      "type": "string",
+      "required": true
+    },
+    "landuse": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "area": {
+      "type": "number"
+    },
+    "floors": {
+      "type": "number"
+    },
+    "district": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

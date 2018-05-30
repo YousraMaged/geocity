@@ -34,5 +34,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Parcel": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Document": {
+    "dataSource": "db",
+    "public": true
   }
 }
