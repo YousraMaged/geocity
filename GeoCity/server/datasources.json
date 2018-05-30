@@ -5,7 +5,7 @@
     "url": "mongodb://dbadmin:dbadmin@ds237770.mlab.com:37770/geocity-dev",
     "database": "geocity-dev",
     "password": "dbadmin",
-    "name": "mongoDS",
+    "name": "db",
     "user": "dbadmin",
     "connector": "mongodb"
   }
