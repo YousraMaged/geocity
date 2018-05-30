@@ -1,11 +1,17 @@
 {
   "name": "Document",
-  "base": "PersistedModel",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "drawings": {
+      "type": [
+        "any"
+      ]
+    }
+  },
   "validations": [],
   "relations": {},
   "acls": [],
