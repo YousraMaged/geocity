@@ -1,8 +1,12 @@
 const mongoose = require ('mongoose');
 const { Schema } = mongoose;
-
 const userSchema = new Schema({
-    name: String
-}/*, { collection : 'Test' }*/);
+    firstName : String,
+    lastName : String,
+    resident : Boolean,
+    email : String,
+    contacts : [ Number ],
+    type : String
+});
 
-mongoose.model('user', userSchema);
+mongoose.model('users', userSchema);
