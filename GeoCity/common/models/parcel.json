@@ -38,7 +38,24 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "documents": {
+      "type": "hasMany",
+      "model": "Document",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "requests": {
+      "type": "hasMany",
+      "model": "Request",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

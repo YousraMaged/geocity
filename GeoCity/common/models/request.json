@@ -1,15 +1,18 @@
 {
-  "name": "Document",
-  "base": "Model",
+  "name": "Request",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "drawings": {
-      "type": [
-        "any"
-      ]
+    "Type": {
+      "type": "string",
+      "required": true
+    },
+    "Details": {
+      "type": "object",
+      "required": true
     }
   },
   "validations": [],

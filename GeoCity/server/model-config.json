@@ -42,5 +42,21 @@
   "Document": {
     "dataSource": "db",
     "public": true
+  },
+  "Bus": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Report": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Request": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Client": {
+    "dataSource": "db",
+    "public": true
   }
 }
