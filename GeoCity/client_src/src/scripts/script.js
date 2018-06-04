@@ -1,0 +1,1 @@
+Console.log("yaraaaaaab ana zh2tttt")
